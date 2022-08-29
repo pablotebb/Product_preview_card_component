@@ -12,12 +12,84 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+.main-container {
+  width: 342px;
+  height: 589px;
+  margin: 30px auto 100px;
+}
+
+.section-image__img {
+  background-image: url(../images/image-product-mobile.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 236px;
+  border-radius: 8px 8px 0 0;
+}
+
+.section-presentation {
+  padding: 27px 25px 25px 28px;
+}
+.section-presentation__pre-title {
+  color: hsl(228deg, 12%, 48%);
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 6px;
+  padding-bottom: 22px;
+}
+.section-presentation__title {
+  font-family: "Fraunces", serif;
+  color: hsl(212deg, 21%, 14%);
+  font-size: 2.3em;
+  margin-left: 2px;
+  margin-bottom: 23px;
+}
+.section-presentation__description {
+  color: hsl(228deg, 12%, 48%);
+  font-size: 0.98em;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.section-presentation div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.section-presentation__discount {
+  font-size: 2.7em;
+  color: hsl(158deg, 36%, 37%);
+  font-weight: 700;
+}
+.section-presentation__price {
+  font-size: 1em;
+  color: hsl(228deg, 12%, 48%);
+  text-decoration: line-through;
+}
+.section-presentation button {
+  background-color: hsl(158deg, 36%, 37%);
+  width: 296px;
+  height: 56px;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  border: 0;
+  border-radius: 12px;
+  font-size: 1.2em;
+}
+.section-presentation button img {
+  padding-right: 7px;
+}
+.section-presentation button:hover {
+  cursor: pointer;
+  background-color: #1a4031;
 }
 
 /*# sourceMappingURL=styles.css.map */

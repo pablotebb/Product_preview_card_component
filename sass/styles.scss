@@ -1,3 +1,78 @@
 @use "variables";
 @use "initial";
 @use "footer";
+
+.main-container {
+  // border: 1px solid red;
+  width: variables.$width-mobile;
+  height: variables.$height-mobile;
+  margin: 30px auto 100px;
+}
+
+.section-image {
+  &__img {
+    background-image: url(../images/image-product-mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 236px;
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+.section-presentation {
+  padding: 27px 25px 25px 28px;
+  &__pre-title {
+    color: variables.$Dark-grayish-blue;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 6px;
+    padding-bottom: 22px;
+  }
+  &__title {
+    font-family: variables.$Font-family-h1;
+    color: variables.$Very-dark-blue;
+    font-size: 2.3em;
+    margin-left: 2px;
+    margin-bottom: 23px;
+  }
+  &__description {
+    color: variables.$Dark-grayish-blue;
+    font-size: 0.98em;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  &__discount {
+    font-size: 2.7em;
+    color: variables.$Dark-cyan;
+    font-weight: 700;
+  }
+  &__price {
+    font-size: 1em;
+    color: variables.$Dark-grayish-blue;
+    text-decoration: line-through;
+  }
+  button {
+    background-color: variables.$Dark-cyan;
+    width: 296px;
+    height: 56px;
+    color: variables.$White;
+    font-weight: 700;
+    border: 0;
+    border-radius: 12px;
+    font-size: 1.2em;
+    img {
+      padding-right: 7px;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: variables.$Dark-cyan-2;
+    }
+  }
+}

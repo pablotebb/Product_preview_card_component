@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 // COLORS
 $Dark-cyan: hsl(158, 36%, 37%);
+$Dark-cyan-2: #1a4031;
 $Cream: hsl(30, 38%, 92%);
 $Very-dark-blue: hsl(212, 21%, 14%);
 $Dark-grayish-blue: hsl(228, 12%, 48%);
@@ -9,3 +10,6 @@ $White: hsl(0, 0%, 100%);
 $Font-size-body: 14px;
 $Font-family-h1: "Fraunces", serif;
 $Font-family-body: "Montserrat", sans-serif;
+// DIMENSIONS
+$width-mobile: 342px;
+$height-mobile: 589px;
